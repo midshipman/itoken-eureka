@@ -1,5 +1,5 @@
 FROM openjdk:8-jre
-FROM maven:3.6.0
+FROM maven:3.5.3
 RUN mkdir /app
 ADD . /app/
 WORKDIR /app
